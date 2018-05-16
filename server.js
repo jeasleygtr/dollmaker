@@ -2,6 +2,7 @@
 
 import express from "express";
 import bodyParser from "body-parser";
+import morgan from "morgan";
 
 // Sets up the Express app
 const PORT = process.env.PORT || 8080;
@@ -26,3 +27,13 @@ const htmlRoutes = require('./controllers/htmlController.js');
 
 app.use(htmlRoutes);
 
+app.use(function(req, res, next){
+    res.status(404);
+
+    res.render('404');
+    return;
+});
+
+app.listen(PORT, function() {
+    console.log('Server listening on: http://localhost:' + PORT)
+});
