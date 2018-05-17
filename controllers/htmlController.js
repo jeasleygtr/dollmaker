@@ -10,4 +10,16 @@ router.get('/cast', function(req, res) {
     res.send('cast');
 });
 
+router.get('/comic', function(req, res) {
+    res.send('comic');
+});
+
+router.get('/gallery', function(req, res) {
+    res.send('gallery');
+});
+
+router.get('/synopsis', function(req, res) {
+    res.send('synopsis');
+});
+
 export default router;
