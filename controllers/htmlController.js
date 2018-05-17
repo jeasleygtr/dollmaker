@@ -22,4 +22,8 @@ router.get('/synopsis', function(req, res) {
     res.send('synopsis');
 });
 
+router.get('./support', function(req, res) {
+    res.send('support')
+});
+
 export default router;
