@@ -7,7 +7,7 @@ router.get('/', function(req, res) {
 });
 
 router.get('/cast', function(req, res) {
-    res.render('cast');
+    res.send('cast');
 });
 
 export default router;

@@ -23,7 +23,7 @@ app.set('view engine', 'handlebars');
 app.use(express.static('public'));
 
 // Import router
-const htmlRoutes = require('./controllers/htmlController.js').default;
+import htmlRoutes from "./controllers/htmlController.js";
 
 app.use(htmlRoutes);
 
