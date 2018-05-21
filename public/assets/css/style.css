@@ -1,15 +1,26 @@
 #myVideo {
-    position: fixed;
+    position: relative;
     right: 0;
     bottom: 0;
     min-width: auto; 
     min-height: auto;
 }
 
-body {
-    background-color: black;
+.nav-center {
+    background-color: red;
 }
 
-.nav-center {
+body {
+    background-color: black;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.page-footer {
     background-color: red;
 }
