@@ -16,9 +16,11 @@
         {{> navbar }}
         {{!-- Imported from w3schools for background video --}}
         <!-- The video -->
-            <video autoplay muted loop id="myVideo">
+        <div class="video-container">
+            <video autoplay muted loop id="myVideo" class="responsive-video">
                 <source src="/assets/videos/playwithme.mp4" type="video/mp4">
             </video>
+        </div>
 
             {{{ body }}}
             {{!-- <video autoplay muted loop id="myvideo">
