@@ -4,6 +4,7 @@
     bottom: 0;
     min-width: auto; 
     min-height: auto;
+    z-index: -1;
 }
 
 .nav-center {
