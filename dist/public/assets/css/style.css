@@ -1,0 +1,15 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: auto; 
+    min-height: auto;
+}
+
+body {
+    background-color: black;
+}
+
+.nav-center {
+    background-color: red;
+}
