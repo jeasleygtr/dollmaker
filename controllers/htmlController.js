@@ -7,23 +7,23 @@ router.get('/', function(req, res) {
 });
 
 router.get('/cast', function(req, res) {
-    res.send('cast');
+    res.render('cast');
 });
 
 router.get('/comic', function(req, res) {
-    res.send('comic');
+    res.render('comic');
 });
 
 router.get('/gallery', function(req, res) {
-    res.send('gallery');
+    res.render('gallery');
 });
 
 router.get('/synopsis', function(req, res) {
-    res.send('synopsis');
+    res.render('synopsis');
 });
 
 router.get('/support', function(req, res) {
-    res.send('support');
+    res.render('support');
 });
 
 
