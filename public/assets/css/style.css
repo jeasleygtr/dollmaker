@@ -32,3 +32,9 @@ main {
     text-align: center;
     font-size: 30px;
 }
+
+.slider-item {
+    width: 50%;
+    height: 100%;
+    z-index: 0;
+}
