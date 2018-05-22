@@ -7,7 +7,7 @@
     z-index: -1;
 }
 
-.nav-center {
+.navbar {
     background-color: red;
 }
 
@@ -22,8 +22,18 @@ main {
     flex: 1 0 auto;
 }
 
-.page-footer {
+.footer {
     background-color: red;
+}
+
+.rating {
+    color: black;
+    text-align: left;
+}
+
+.copyright {
+    color: black;
+    text-align: right;
 }
 
 .comingSoon-page {
