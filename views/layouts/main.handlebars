@@ -1,30 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+
         <meta charset="UTF-8">
+        
         <title>Dollmaker</title>
-            <!-- Compiled and minified CSS -->
+
+        <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+        {{!-- Link to style sheet --}}
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-        {{!-- Insert style sheets and jQuery link if used --}}
+
     </head>
 
     <body>
         {{> navbar }}
 
         {{{ body }}}
-            {{!-- <video autoplay muted loop id="myvideo">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/U7xn3X6SdC4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</video> --}}
 
-        {{!-- Imported from materialize docs --}}
-        {{!-- <div class="video-container">
-            <iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
-            {{{ body }}}
-        </div> --}}
         {{> footer }}
     </body>
+    
 </html>
