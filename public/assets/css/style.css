@@ -43,3 +43,11 @@ main {
     z-index: 0;
     margin-top: -100px;
 }
+
+.modal {
+    background: black;
+    position: fixed;
+}
+
+
+
