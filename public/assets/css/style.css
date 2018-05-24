@@ -33,6 +33,22 @@ main {
     font-size: 30px;
 }
 
+.plotSynopsisText {
+    color: white;
+    text-align: left;
+    font-size: 18px;
+}
+
+.synopsisTitles {
+    color: red;
+    font-size: 24px;
+}
+.menagerieText {
+    color: white;
+    text-align: left;
+    font-size: 18px;
+}
+
 .carousel {
     height: 500px !important;
     margin-bottom: 200px;
