@@ -44,10 +44,17 @@ main {
     color: red;
     font-size: 24px;
 }
+
 .menagerieText {
     color: white;
     text-align: left;
     font-size: 18px;
+}
+
+.menagerieNames {
+    color: red;
+    text-align: left;
+    font-size: 20px;
 }
 
 .carousel {
