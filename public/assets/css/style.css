@@ -1,5 +1,5 @@
 #myVideo {
-    position: relative;
+    position: absolute;
     right: 0;
     bottom: 0;
     min-width: auto; 
@@ -9,6 +9,7 @@
 
 .nav-center {
     background-color: red;
+    height: 68px;
 }
 
 body {
@@ -59,3 +60,29 @@ main {
     z-index: 0;
     margin-top: -100px;
 }
+
+.modal {
+    position: fixed;
+}
+
+.modal-footer {
+}
+
+.modal-trigger {
+    background-color: black;
+    height: 200px;
+    font-size: 16px;
+    color: red;  
+}
+
+.card-panel {
+    width: 150px;
+    height: 250px;
+    margin-top: 250px;
+    position: relative;
+    float: left;
+    background: red !important;
+}
+
+
+
