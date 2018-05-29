@@ -27,6 +27,7 @@ main {
 
 .homeback {
     background-image: url("../images/img29.jpg");
+    background-repeat: no-repeat;
 }
 
 .page-footer {
