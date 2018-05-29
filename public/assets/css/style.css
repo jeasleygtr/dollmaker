@@ -91,5 +91,21 @@ main {
     background: red !important;
 }
 
+.biocard {
+    background: white;
+}
+
+.imdb {
+    color: black;
+}
+
+.biotext {
+    color: red;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 
