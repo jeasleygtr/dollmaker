@@ -48,6 +48,17 @@ main {
     font-size: 30px;
 }
 
+.support-page {
+    z-index: 0;
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+
+a.supportLink:link {
+    color: red;
+}
+
 .homeBody {
     background-repeat: no-repeat;
 }
