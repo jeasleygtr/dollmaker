@@ -72,9 +72,6 @@ main {
     position: fixed;
 }
 
-.modal-footer {
-}
-
 .modal-trigger {
     background-color: black;
     height: 200px;

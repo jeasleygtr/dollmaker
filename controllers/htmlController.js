@@ -26,5 +26,4 @@ router.get('/support', function(req, res) {
     res.render('support');
 });
 
-
 export default router;
