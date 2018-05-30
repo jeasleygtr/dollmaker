@@ -10,8 +10,8 @@ router.get('/cast', function(req, res) {
     res.render('cast');
 });
 
-router.get('/comic', function(req, res) {
-    res.render('comic');
+router.get('/merch', function(req, res) {
+    res.render('merch');
 });
 
 router.get('/gallery', function(req, res) {

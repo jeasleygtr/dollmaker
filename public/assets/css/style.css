@@ -1,11 +1,11 @@
-#myVideo {
+/* #myVideo {
     position: absolute;
     right: 0;
     bottom: 0;
     min-width: auto; 
     min-height: auto;
     z-index: -1;
-}
+} */
 
 .nav-center {
     background-color: red;
@@ -23,6 +23,13 @@ main {
     flex: 1 0 auto;
 }
 
+/* .homeback {
+    background-image: url("../images/img29.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100%;
+} */
+
 .page-footer {
     background-color: red;
 }
@@ -32,6 +39,28 @@ main {
     color: white;
     text-align: center;
     font-size: 30px;
+}
+
+.cast-page {
+    z-index: 0;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.support-page {
+    z-index: 0;
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+
+a.supportLink:link {
+    color: red;
+}
+
+.homeBody {
+    background-repeat: no-repeat;
 }
 
 .plotSynopsisText {
@@ -88,5 +117,21 @@ main {
     background: red !important;
 }
 
+.biocard {
+    background: white;
+}
+
+.imdb {
+    color: black;
+}
+
+.biotext {
+    color: red;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 
