@@ -1,13 +1,14 @@
 $(document).ready(function(){
     // $("#thank-you-message").hide();
   // Initialize Firebase
+  // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyDprBAO4G2mposL73BdoPNF2iCZpKgt35c",
-    authDomain: "dollmaker-d9310.firebaseapp.com",
-    databaseURL: "https://dollmaker-d9310.firebaseio.com",
-    projectId: "dollmaker-d9310",
+    apiKey: "AIzaSyCxFFQmbxY1xxtM_SevtW0McsTTXZKj6HQ",
+    authDomain: "dollmaker-16da1.firebaseapp.com",
+    databaseURL: "https://dollmaker-16da1.firebaseio.com",
+    projectId: "dollmaker-16da1",
     storageBucket: "",
-    messagingSenderId: "409341585480"
+    messagingSenderId: "1029632033652"
   };
   firebase.initializeApp(config);
     // Create a variable to reference the database
