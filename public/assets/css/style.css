@@ -1,11 +1,11 @@
-#myVideo {
+/* #myVideo {
     position: absolute;
     right: 0;
     bottom: 0;
     min-width: auto; 
     min-height: auto;
     z-index: -1;
-}
+} */
 
 .nav-center {
     background-color: red;
@@ -17,18 +17,18 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-position: top center;
-    background-repeat: no-repeat;
 }
 
 main {
     flex: 1 0 auto;
 }
 
-.homeback {
+/* .homeback {
     background-image: url("../images/img29.jpg");
     background-repeat: no-repeat;
-}
+    background-position: top center;
+    height: 100%;
+} */
 
 .page-footer {
     background-color: red;
