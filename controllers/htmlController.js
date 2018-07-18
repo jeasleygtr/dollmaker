@@ -10,6 +10,10 @@ router.get('/cast', function(req, res) {
     res.render('cast');
 });
 
+router.get('/crew', function(req, res) {
+    res.render('crew');
+});
+
 router.get('/merch', function(req, res) {
     res.render('merch');
 });
