@@ -134,4 +134,14 @@ a:hover {
     text-decoration: underline;
 }
 
+.newsItem {
+    font-size: 24px
+}
 
+.newsHeadline {
+    color: red;
+}
+
+.castMemberLink {
+    color: red;
+}
